@@ -60,7 +60,42 @@
         </div>
 
             <div class="backdrop is-hidden" data-modal>
+             
                 <div class="modal">
+                    <div class="modal-inner">
+                        <h2 class="modal-title title">Оставьте свои данные, мы вам перезвоним</h2>
+                        <form action="#" name="form" autocomplete="off" novalidate>
+
+                            <div class="form-field">
+                                <label class="form-lable" for="contact-name">Имя</label>
+                                <input class="form-input" type="text" id="contact-name" autofocus placeholder="icon" name="contact-name">
+                            </div>
+                            
+                            <div class="form-field">
+                                <label class="form-lable" for="contact-tel">Телефон</label>
+                                <input class="form-input" type="tel" id="contact-tel" autofocus placeholder="icon" name="contact-tel">
+                            </div>
+                            
+                            <div class="form-field">                             
+                                <label class="form-lable" for="contact-email">Почта</label>
+                                <input class="form-input" type="email" id="contact-email" autofocus placeholder="icon" name="contact-email">
+                            </div>
+                        </form>
+                            <div class="form-section">
+                                <div class="form-field">
+                                    <label class="form-lable" for="form-textarea">Комментарий</label>
+                                    <textarea class="form-input form-textarea" name="form-coment" id="form-textarea" placeholder="Введите текст" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="form-field policy">
+                                    <input class="form-input-policy" id="form-policy" type="checkbox" name="">
+                                    <label class="form-lable-policy" for="form-policy">Соглашаюсь с рассылкой и принимаю 
+                                        <a href="" class="menu-link active-policy"> Условия договора </a></label>
+                                </div>
+                            </div>
+                            <button class="button primary-top form-button" type="submit">
+                                Отправить
+                            </button>
+                    </div>
                     <button data-modal-close class="close">
                         <svg class="close-icon" width="30px" height="30px">
                             <use href="./images/sprite.svg#iconclose"></use>
