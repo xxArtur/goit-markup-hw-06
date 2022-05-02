@@ -64,7 +64,7 @@
                 <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
                 <button data-modal-open type="button" class="button primary-top">Заказать услугу</button>
             </div>
-
+            <!-- Модальне вікно -->
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <div class="modal-inner">
@@ -73,33 +73,33 @@
 
                             <div class="form-field ">
                                 
-                                <svg class="icon" width="20px" height="20px">
-                                    <use href="./images/sprite.svg#iconperson-black"></use>
-                                </svg>
-                                
                                 <label class="form-lable" for="contact-name">Имя</label>
                                 <input class="form-input" type="text" id="contact-name" autofocus placeholder=" "
                                     name="contact-name">
-                            
+                                <svg class="icon form" width="20px" height="20px">
+                                    <use href="./images/sprite.svg#iconperson-black"></use>
+                                </svg>
                             </div>
 
                             <div class="form-field">
-                                <svg class="icon" width="20px" height="20px">
-                                    <use href="./images/sprite.svg#iconphone-black"></use>
-                                </svg>
+                               
                                 <label class="form-lable" for="contact-tel">Телефон</label>
                                 <input class="form-input" type="tel" id="contact-tel" autofocus placeholder=" "
                                     name="contact-tel">
+                                    <svg class="icon form" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#iconphone-black"></use>
+                                    </svg>
 
                             </div>
 
                             <div class="form-field">
-                                <svg class="icon" width="20px" height="20px">
-                                    <use href="./images/sprite.svg#iconemail-black"></use>
-                                </svg>
+                               
                                 <label class="form-lable" for="contact-email">Почта</label>
                                 <input class="form-input" type="email" id="contact-email" autofocus placeholder=" "
                                     name="contact-email">
+                                    <svg class="icon form" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#iconemail-black"></use>
+                                    </svg>
                             </div>
                     </form>
                         <div class="form-section">
@@ -450,10 +450,13 @@
                 <form action="" class="podpiska">
 
                     <label for="E-mail" class="text">Подпишитесь на рассылку</label>
-                    <div class="xz">
+                    <div class="mailing">
                         <input type="E-mail" placeholder="E-mail" class="vstavka">
                         <button class="button primary-top">
-                            Подписаться
+                            <p class="mailing-text"> Подписаться </p>
+                            <svg class="button-icon" width="20px" height="20px">
+                                <use href="./images/sprite.svg#iconicon-send"></use>
+                            </svg>
                         </button>
                     </div>
 
