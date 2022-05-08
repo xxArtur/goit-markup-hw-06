@@ -892,7 +892,7 @@ color: #212121;
 .form-input-check:checked + .check-box {
   
   box-shadow: 0 0 0 2px rgba(33, 150, 243, 1);
-  background-image: url(/svg/checked.svg);
+  background-image: url(../svg/checked.svg );
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-color: #2196F3;
