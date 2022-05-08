@@ -895,7 +895,7 @@ color: #212121;
   background-image: url('../svg/checked.svg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-color: #9bd25f;
+  background-color: var(--accent-color);
 }
 
 .form-lable-check{
